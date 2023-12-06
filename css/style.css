@@ -28,6 +28,9 @@ button{
 }
 
 /* header start */
+.header{
+    border-bottom: 1px solid #757575;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -96,7 +99,6 @@ button{
 }
 .nav__box--box{
     height: 104px;
-    background-color: azure;
     display: flex;
     align-items: center;
 }

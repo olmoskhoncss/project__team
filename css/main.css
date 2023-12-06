@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+@font-face {
+    font-family:'GolosText-400' ;
+    src: url(../fonts/GolosText-Regular.ttf);
+}
+@font-face {
+    font-family:'GolosText-600' ;
+    src: url(../fonts/GolosText-SemiBold.ttf);
+}
