@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+@font-face {
+    font-family:'GolosText-400' ;
+    src: url(../fonts/GolosText-Regular.ttf);
+}
+@font-face {
+    font-family:'GolosText-600' ;
+    src: url(../fonts/GolosText-SemiBold.ttf);
+}
+
+/* header start */
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background-color: #F4F5F8;
+}
+.nav__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo__box{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo__title{
+    color: #161616;
+    font-family:'GolosText-600' ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px; 
+}
+.nav__top--input{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.email__number{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.nav__top--email{
+    color: #757575;
+    font-family:'GolosText-400' ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px; 
+}
+.nav__top--number{
+    color: #757575;
+    font-family:'GolosText-400' ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px; 
+}
+.deliver__guarantee{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.nav__top--deliver{
+    color: #757575;
+    font-family:'GolosText-400' ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px; 
+}
+.nav__top--guarantee{
+    color: #757575;
+    font-family:'GolosText-400' ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px; 
+}
+.nav__box--box{
+    height: 104px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+}
+.nav__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+.nav__link{
+    padding: 12px 20px;
+    background-color: #F4F5F8;
+    border-radius: 8px;
+    color: #161616;
+    font-family:'GolosText-400' ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.nav__box--btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav__box--search{
+    border-radius: 8px;
+    background-color: #F4F5F8;
+    padding: 10px;
+}
+.nav__box--cart{
+    border-radius: 8px;
+    background-color: #F4F5F8;
+    padding: 10px;
+}
+.nav__box--info{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: #202226;
+    color: #fff;
+    font-family:'GolosText-400' ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+/* header end */
