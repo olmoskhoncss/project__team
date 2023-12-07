@@ -432,6 +432,8 @@ button {
 .discribe-content__sentence {
   display: flex;
   gap: 177px;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
 }
 .discribe-c {
   color: var(--text-gray-light-bg, #757575);
@@ -445,7 +447,7 @@ button {
   font-size: 16px;
   font-family: "GolosText-400";
   font-weight: 400;
-  line-height: 20px; /* 125% */
+  line-height: 20px;
 }
 
 /* section describe */
