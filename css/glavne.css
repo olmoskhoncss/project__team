@@ -452,6 +452,260 @@ button {
 
 /* section describe */
 
+/* section video */
+
+#video {
+  padding: 60px 0px;
+}
+.video-title {
+  width: 692px;
+  color: var(--text-black, #161616);
+  font-feature-settings: "liga" off;
+  font-family: "GolosText-400";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.24px;
+  margin-bottom: 16px;
+}
+.video {
+  max-width: 100%;
+}
+/* section video */
+
+/* feauture section */
+#feauture {
+  padding-bottom: 60px;
+}
+
+.feauture-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 17px;
+  padding: 8px 8px 40px 8px;
+}
+
+.feauture-card {
+  width: 300px;
+  height: 512px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--background-gray, #f4f5f8);
+}
+.feauture-card__img {
+  margin-left: 13px;
+  margin-right: 8px;
+  margin-top: 8px;
+  width: 273px;
+  height: 200px;
+  border-radius: 12px;
+  background: var(--white-w-100, #fff);
+}
+.feauture-card__p {
+  width: 249px;
+  color: var(--text-black, #161616);
+  font-family: "GolosText-400";
+  margin: 20px 20px 156px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.feauture-card__price {
+  width: 249px;
+  color: var(--text-black, #161616);
+  font-family: "GolosText-400";
+  margin: 0px 20px 20px 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+}
+.card-btn {
+  margin: 0px 20px 0px 40px;
+  padding: 12px 80px;
+  border-radius: 8px;
+  background: var(--background-black, #202226);
+  color: var(--text-white, #fff);
+  font-family: "GolosText-400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.card-btn:hover {
+  transition: all 0.3s;
+  background-color: #e9e9e9;
+  border: 2px solid black;
+  color: black;
+}
+
+.feature-title {
+  margin-bottom: 20px;
+  width: 692px;
+  color: var(--text-black, #161616);
+  font-feature-settings: "liga" off;
+  font-size: 24px;
+  font-family: "GolosText-400";
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.24px;
+}
+
+@media (max-width: 768px) {
+  .feauture-cards {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .feauture-cards {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    align-items: center;
+  }
+}
+/* feauture section */
+
+/* tovar section */
+#tovar {
+  padding: 60px 0px 100px 0px;
+}
+.tovar-title {
+  width: 464px;
+  color: var(--text-black, #161616);
+  font-feature-settings: "liga" off;
+  font-size: 24px;
+  font-family: "GolosText-400";
+  font-weight: 400;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: 0.24px;
+  margin-bottom: 16px;
+}
+.tovar-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 17px;
+}
+.tovar-card__img {
+  width: 272px;
+  height: 184px;
+  border-radius: 16px;
+  background: var(--background-gray, #f4f5f8);
+}
+
+.tovar-card {
+  width: 300px;
+  height: 512px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--background-gray, #f4f5f8);
+}
+.card-btns:hover {
+  transition: all 0.3s;
+  background-color: #e9e9e9;
+  border: 2px solid black;
+  color: black;
+}
+
+.just {
+  padding: 20px 20px 0px 20px;
+}
+.card-btns {
+  margin: 0px 20px 0px 40px;
+  padding: 12px 80px;
+  border-radius: 8px;
+  background: var(--background-black, #202226);
+  color: var(--text-white, #fff);
+  font-family: "GolosText-400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card-btns {
+  margin-top: 70px;
+}
+@media (max-width: 768px) {
+  .tovar-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 320px) {
+  .tovar-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* tovar section */
+
+/* contact section */
+
+.contact-grid {
+  max-width: 100%;
+  padding: 60px 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1200px;
+  height: 404px;
+  border-radius: 20px;
+  margin-bottom: 120px;
+  background: var(--background-black, #202226);
+}
+
+.contact-left__p {
+  width: 451px;
+  color: var(--text-gray-dark-bg, #9f9f9f);
+  font-size: 16px;
+  font-family: "GolosText-400";
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.contact-left__heading {
+  width: 551px;
+  color: var(--text-white, #fff);
+  font-size: 40px;
+  font-family: "GolosText-400";
+  font-weight: 400;
+  margin-bottom: 40px;
+  max-width: 100%;
+  line-height: 48px;
+}
+.from-section {
+  width: 100%;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  display: flex;
+  margin-bottom: 72px;
+  width: 552px;
+}
+.btn-contact {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: var(--background-white, #fff);
+}
+.btn-contact:hover {
+  transform: scale(1.1);
+  padding-top: 12px;
+}
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+/* contact section */
+
 /* footer start */
 .footer {
   height: 568px;
