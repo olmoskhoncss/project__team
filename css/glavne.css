@@ -412,32 +412,43 @@ button {
 }
 
 /* section opisane responsive */
-.nav__box--btn {
+
+/* section describe */
+.discribe-title {
+  width: 692px;
+  color: var(--text-black, #161616);
+  font-feature-settings: "liga" off;
+  font-size: 24px;
+  font-family: "GolosText-400";
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.24px;
+  margin-bottom: 24px;
+}
+.discribe-content {
+  width: 692px;
+  height: 360px;
+}
+.discribe-content__sentence {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  gap: 177px;
 }
-.nav__box--search {
-  border-radius: 8px;
-  background-color: #f4f5f8;
-  padding: 10px;
-}
-.nav__box--cart {
-  border-radius: 8px;
-  background-color: #f4f5f8;
-  padding: 10px;
-}
-.nav__box--info {
-  padding: 12px 20px;
-  border-radius: 8px;
-  background-color: #202226;
-  color: #fff;
+.discribe-c {
+  color: var(--text-gray-light-bg, #757575);
   font-family: "GolosText-400";
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 20px; /* 125% */
 }
-/* header end */
+.discribe-n {
+  color: var(--text-black, #161616);
+  font-size: 16px;
+  font-family: "GolosText-400";
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+/* section describe */
 
 /* footer start */
 .footer {
