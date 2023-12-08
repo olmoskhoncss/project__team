@@ -1,12 +1,8 @@
-/* css boilerplite */
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
-
-/* css boilerplite */
-
 .container {
   max-width: 1230px;
   width: 100%;
@@ -29,6 +25,7 @@ button {
   font-family: "GolosText-600";
   src: url(../fonts/GolosText-SemiBold.ttf);
 }
+
 /* header start */
 .header {
   border-bottom: 1px solid #757575;
@@ -156,8 +153,8 @@ button {
   --Primary: #202226;
   --text-black: #161616;
 }
-
 /* vaiables */
+
 
 /* site hero section left */
 .hero {
