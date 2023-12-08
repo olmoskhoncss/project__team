@@ -149,6 +149,408 @@ button{
 /* header end */
 
 
+/* main */
+/* main start */
+
+.main_content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main_title {
+    color: #161616;
+    font-family: 'GolosText-400';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    margin-bottom: 8px;
+}
+
+.main_title_2 {
+    color: #161616;
+    font-family: 'GolosText-400';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    margin-bottom: 8px;
+}
+
+.main_title_3 {
+    color: #161616;
+    font-family: 'GolosText-400';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    margin-bottom: 8px;
+}
+
+.main_text {
+    width: 313px;
+    color: #757575;
+    font-family: 'GolosText-400';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main_content {
+    display: flex;
+}
+
+.main_card {
+    display: flex;
+    margin-right: 16px;
+}
+
+.main_img {
+    border-radius: 8px;
+    border: 1px solid var(--border-or-devider-light-bg, #E9E9E9);
+    padding: 18px;
+}
+
+.main_img_block {
+    margin-right: 16px;
+}
+
+/* main end */
+
+/* products start */
+
+.products_container {
+    padding-bottom: 120px;
+}
+
+.products_paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.products_title {
+    color: #161616;
+    font-family: "GolosText-400";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+
+.products_text {
+    color: #757575;
+    font-family: "GolosText-400";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -20px;
+}
+
+.products_link_first {
+    color: #FFF;
+    font-family: "GolosText-400";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 8px;
+    background: #202226;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+.products_support {
+    margin-bottom: 30px;
+}
+
+.products_link_first::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../images/katalog/QR_code.svg);
+    background-repeat: no-repeat;
+    margin-left: 96px;
+    margin-bottom: -6px;
+}
+
+.products_link_second {
+    color: #161616;
+    font-family: "GolosText-400";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+.products_link_second:hover {
+    color: #FFF;
+    background: gray;
+    transition: 0.2s;
+}
+
+.products_link_second::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../images/katalog/percent.svg);
+    background-repeat: no-repeat;
+    margin-left: 155px;
+    margin-bottom: -6px;
+}
+
+.products_support_2 {
+    margin-bottom: 20px;
+}
+
+.products_link {
+    color: #161616;
+    font-family: "GolosText-400";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    width: 260px;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.products_link:hover {
+    color: #FFF;
+    background: gray;
+    transition: 0.2s;
+}
+
+.products_support_3 {
+    margin-bottom: 8px;
+}
+
+.products_support_4 {
+    margin-bottom: 8px;
+}
+
+.products_support_5 {
+    margin-bottom: 8px;
+}
+
+.products_support_6 {
+    margin-bottom: 8px;
+}
+
+.products_support_7 {
+    margin-bottom: 8px;
+}
+
+.products_middle {
+    width: 261.6px;
+}
+
+.products_card {
+    width: 289px;
+    flex-shrink: 0;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+    background: #F4F5F8;
+}
+
+.products_card_title {
+    color: #161616;
+    font-family: "GolosText-400";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.products_card_mdl {
+    display: flex;
+}
+
+.products_card_sub_title {
+    width: 98px;
+    color: #757575;
+    font-family: "GolosText-400";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-right: 8px;
+}
+
+.products_card_mdl {
+    margin-bottom: 8px;
+}
+
+.products_card_sub_text {
+    width: 143px;
+    color: #000;
+    text-align: right;
+    font-family: "GolosText-400";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.products_card_sub_text_last {
+    width: 143px;
+    color: #000;
+    text-align: right;
+    font-family: "GolosText-400";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 52px;
+}
+
+.products_line {
+    width: 249px;
+    height: 1px;
+    background: #E9E9E9;
+    margin-bottom: 8px;
+}
+
+.products_img_block {
+    border-radius: 12px;
+    background: #FFF;
+    margin-bottom: 28px;
+}
+
+.products_img_block:hover {
+    scale: 1.08;
+    transition: 0.3s;
+}
+
+.products_card_price {
+    color: #161616;
+    font-family: "GolosText-400";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    margin-right: 8px;
+}
+
+.products_card_price_line {
+    color: #757575;
+    font-family: "GolosText-400";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.products_price_block {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.products_btn {
+    color: #FFF;
+    font-family: "GolosText-400";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    width: 249px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #202226;
+}
+
+.products_btn:hover {
+    background: gray;
+    transition: 0.2s;
+}
+
+.products_btn_block {
+    margin-top: 20px;
+}
+
+.products_content {
+    display: flex;
+}
+
+.products_control {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.products_last_btn {
+    color: #161616;
+    font-family: "GolosText-400";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F4F5F8;
+}
+
+.products_last_btn:hover {
+    color: #FFF;
+    background: #202226;
+    transition: 0.2s;
+}
+
+.products_last_btn_block {
+    margin-left: 670px;
+}
+
+/* products end */
+
+/* voice start */
+
+.voice_title {
+    width: 456px;
+    color: #FFF;
+    font-family: "GolosText-400";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+/* main */
 
 /* footer start */
 .footer{
